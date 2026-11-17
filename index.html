@@ -98,6 +98,10 @@ mjx-container[display="true"]{margin:0.65em 0!important}
 
 </main>
 <script>
+
+// URL Google Apps Script
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyL2ZWrn-zE5nVhfd66MjBw0NR4gshI5PYXWIGtXPVMgS5kSADE3L2WhrAK-ZaaYhHgxw/exec';
+
 function factorialText(n){
   if(n===0 || n===1) return '1';
   return Array.from({length:n},(_,i)=>n-i).join('\\times');
